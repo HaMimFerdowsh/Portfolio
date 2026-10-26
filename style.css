@@ -243,3 +243,11 @@ section{scroll-margin-top:28px;display:flex;flex-direction:column;gap:30px;min-w
   .track,.pulse,.caret{animation:none}
   .card:hover,.btn:hover{transform:none}
 }
+@media (max-width:900px){
+  .shell{flex-direction:column;align-items:stretch}
+  .main>*{min-width:0;max-width:100%}
+  .strip{min-width:0;max-width:100%}
+  .hero h1{font-size:clamp(36px,11vw,52px)}
+  .code{font-size:12px}
+  .contact h2{max-width:none}
+}
